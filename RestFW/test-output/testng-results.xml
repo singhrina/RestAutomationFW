@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39" started-at="2016-11-17T06:30:36Z" finished-at="2016-11-17T06:30:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39" started-at="2016-11-17T06:30:36Z" finished-at="2016-11-17T06:30:36Z">
+      <class name="com.wbl.rest.testes.UserTimelineTest">
+        <test-method status="FAIL" signature="testUserTimeline(java.lang.String)[pri:0, instance:com.wbl.rest.testes.UserTimelineTest@4f933fd1]" name="testUserTimeline" duration-ms="16" started-at="2016-11-16T22:30:36Z" data-provider="iTune-Data" finished-at="2016-11-16T22:30:36Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.testng.internal.ArrayIterator.hasNext(MethodHelper.java:350)
+	at org.testng.internal.Parameters$2.hasNext(Parameters.java:448)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1117)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserTimeline -->
+      </class> <!-- com.wbl.rest.testes.UserTimelineTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
